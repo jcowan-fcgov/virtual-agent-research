@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Virtual Agent Research</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="pandoc.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="virtual-agent-research">Virtual Agent Research</h1>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#virtual-agent-research">Virtual Agent Research</a>
+<ul>
+<li><a href="#virtual-agent-with-qna-maker-integration">Virtual Agent with QnA Maker Integration</a></li>
+<li><a href="#other-considerations">Other Considerations</a></li>
+<li><a href="#helpful-links">Helpful Links</a></li>
+<li><a href="#topics">Topics</a></li>
+<li><a href="#power-virtual-agents-w-knowledge-base">Power Virtual Agents w/ Knowledge Base</a></li>
+<li><a href="#blockers">Blockers</a></li>
+<li><a href="#licensing">Licensing</a>
+<ul>
+<li><a href="#power-virtual-agent-tenant-license">Power Virtual Agent Tenant License</a></li>
+<li><a href="#quotas-capacity-considerations">Quotas &amp; Capacity Considerations</a></li>
+<li><a href="#licensing-resources">Licensing Resources</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#common-data-service">Common Data Service</a>
+<ul>
+<li><a href="#common-data-model">Common Data Model</a></li>
+</ul></li>
+</ul>
+</nav>
+
+<h2 id="virtual-agent-with-qna-maker-integration">Virtual Agent with QnA Maker Integration</h2>
+<ul>
+<li><p><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/tutorials/integrate-with-power-virtual-assistant-fallback-topic">PVA Integration with QandA Maker</a></p></li>
+<li><p>Required Products and Services Costs</p>
+<ul>
+<li>Power Virtual Agent Tenant License ($1000/month + $450/month for 1000 additional sessions)<sup>1</sup></li>
+<li>Power Virtual Agent User License (No cost)<sup>1</sup></li>
+<li>Power Automate Management Services Standard License ($400/month)<sup>1</sup></li>
+<li>QnA Maker Management Services Standard License ($10/month)<sup>2</sup></li>
+<li>Azure Cognitive Search Pricing ($0.101 - $3.839/hour)<sup>3</sup></li>
+<li>Azure App Service Pricing ($9.67 - $1001.16/month)<sup>5</sup></li>
+</ul></li>
+<li><p>Approximate Total Product and Services Cost</p>
+<ul>
+<li>$1520 - $2520, plus the consumed Azure Cognitive Search rate</li>
+</ul></li>
+<li><p>References</p>
+<ul>
+<li><sup>1</sup> <a href="https://go.microsoft.com/fwlink/?LinkId=2085130&amp;clcid=0x409">Power Platform Licensing Guide</a></li>
+<li><sup>2</sup> <a href="https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/">QnA Maker Portal and Management APIs Cost</a></li>
+<li><sup>3</sup> <a href="https://azure.microsoft.com/en-us/pricing/details/search/">Azure Cognitive Search Pricing</a></li>
+<li><sup>4</sup> <a href="https://azure.microsoft.com/en-us/pricing/details/app-service/windows/">Azure App Service Pricing</a></li>
+<li><sup>5</sup> <a href="https://azure.microsoft.com/en-us/pricing/calculator/">Azure Price Calculator</a></li>
+</ul></li>
+</ul>
+<h2 id="other-considerations">Other Considerations</h2>
+<ul>
+<li>Prices may vary based on the region and tenant type</li>
+<li>Depending on deployment, there will be an additional cost for deploying bot to custom web site or sharepoint</li>
+</ul>
+</body>
+</html>
